@@ -20,6 +20,7 @@ const config = {
 };
 
 const game = new Phaser.Game(config);
+console.log("config");
 
 game.scene.add("mainScene", mainScene);
 game.scene.start("mainScene");
