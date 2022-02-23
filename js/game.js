@@ -1,6 +1,8 @@
 /* global Phaser */
 
-import MainScene from "./mainScene.js";
+import MainScene from "./mainScene.js"
+
+const mainScene = new MainScene()
 
 const config = {
   type: Phaser.Auto,
@@ -17,9 +19,9 @@ const config = {
     mode: Phaser.Scale.Fit,
     autoCenter: Phaser.Scale.CENTER_BOTH,
   },
-};
+}
 
-const game = new Phaser.Game(config);
+const game = new Phaser.Game(config)
 
-game.scene.add("mainScene", mainScene);
-game.scene.start("mainScene");
+game.scene.add("mainScene", mainScene)
+game.scene.start("mainScene")

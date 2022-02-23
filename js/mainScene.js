@@ -2,15 +2,15 @@
 
 class MainScene extends Phaser.Scene {
   constructor() {
-    super({ key: "mainScene" });
+    super({ key: "mainScene" })
   }
 
   init(data) {
-    this.cameras.main.setBackgroundColor("ffffff");
+    this.cameras.main.setBackgroundColor("ffffff")
   }
 
   preload() {
-    console.log("main scene");
+    console.log("main scene")
   }
 
   create(data) {}
@@ -18,4 +18,4 @@ class MainScene extends Phaser.Scene {
   update(time, delta) {}
 }
 
-export default MainScene;
+export default MainScene
